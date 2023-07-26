@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: "Bohan";
+    src: local("Bohuan"),
+      url("./fonts/Bohuan\ PERSONAL\ USE.ttf") format("opentype");
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "Dunver";
+    src: local("Dunver"),
+      url("./fonts/behance-64251e0b4f5cc.otf") format("opentype");
+    font-weight: normal;
+  }
+
+.font_style-1{
+    font-family: Bohuan;
+}
+.font_style-2{
+    font-family: Dunver;
+}
+
+.blur-effect{
+  background: rgba(217, 217, 217, 0.07);
+  box-shadow: 0 8px 32px 0 rgba(1, 2, 12, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

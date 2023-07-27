@@ -18,7 +18,7 @@ const HowTo = () => {
           whileInView='show'
           className='p-0'
         >
-          <img src={Humanoid3} alt="humanoid2" className='object-contain w-full h-full lg:mt-6' />
+          <img src={Humanoid3} alt="humanoid3" className='object-contain w-full h-full lg:mt-6' />
         </motion.div>
         <motion.div variants={slideInRight}
           initial='hidden'

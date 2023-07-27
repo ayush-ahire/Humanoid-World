@@ -6,7 +6,7 @@ const What = () => {
   return (
     <motion.div
     id='what'
-      className='  lg:mt-[180px] sm: mt-[80px] flex justify-center z-10'>
+      className='lg:mt-[220px] sm: mt-[120px] flex justify-center'>
       <motion.div variants={staggerContainer}
         initial='hidden'
         whileInView='show'

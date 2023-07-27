@@ -13,7 +13,7 @@ const Why = () => {
         variants={NavVariant}
         initial='hidden'
         whileInView='show'
-        className='font_style-2 mt-4 flex justify-center items-center text-white lg:text-[78px] sm: text-[48px] sm:ml-10 ml-8 relative z-10 '>
+        className='font_style-2 mt-[80px] flex justify-center items-center text-white lg:text-[78px] sm: text-[48px] sm:ml-10 ml-8 relative z-10 '>
         <h1>Why Become a <span className='text-[#50F835]'>  Humanoid?</span></h1>
 
       </motion.div>

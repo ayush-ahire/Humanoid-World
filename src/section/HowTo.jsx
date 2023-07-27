@@ -24,7 +24,7 @@ const HowTo = () => {
           initial='hidden'
           whileInView='show'
           className=' lg:max-w-[50%] sm:max-w-[70%] p-3 '>
-          <h1 className='text-white font_style-2 sm: text-[34px] lg:text-[64px] '><span className='text-[#50F835]'>How To Buy</span> Humanoid?</h1>
+          <h1 className='text-white font_style-2 sm: text-[54px] lg:text-[64px] '><span className='text-[#50F835]'>How To Buy</span> Humanoid?</h1>
           <div className=' flex flex-col justify-center items-start flex-auto font_style-1 text-white '>
             <div className='flex flex-row justify-center items-center text-[22px]'>
               <img src={boat} alt="boat img" className='w-[100px] h-[100px]' />
